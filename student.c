@@ -3,9 +3,9 @@ int main()
 {
     int id;
     float m1,m2,m3,total,average;
-    prinf("Enter Student ID:");
+    printf("Enter Student ID:");
     scanf("%d",&id);
-    prinf("Enter Marks for 3 subjects:\n");
+    printf("Enter Marks for 3 subjects:\n");
     scanf("%f%f%f",&m1,&m2,&m3);
     total=m1+m2+m3;
     average=total/3;
